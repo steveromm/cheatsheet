@@ -18,4 +18,7 @@ It can be easy to forget coding lessons without practice, so each section has a 
 
 Currently, this site utilizes HTML, CSS, Git and Github, but as I learn new languages and concepts they will be added as well. I'm looking at you, Javascript!
 
+## Crunchy Tunes
+As a thank you to anyone who may have perused my wildy novice code, I've provided a fun playlist I found on spotify. 
+
 by Steve
