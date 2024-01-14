@@ -35,7 +35,7 @@ h1 {
 
 h2 {
   text-align: center;
-  margin: 60px auto 20px;
+  margin: 0px auto 50px auto;
   font-size: 3em;
   background-color: rgb(230, 224, 200);
   padding: 20px;
@@ -185,6 +185,7 @@ td {
   width: 100%;
   display: flex;
   background-color: whitesmoke;
+  margin: 0 auto 30px auto;
 }
 
 .side,
@@ -215,6 +216,12 @@ td {
 
 .return {
   text-align: center;
+  margin: 0 0 200px 0;
+  font-size: 1.5em;
+}
+
+.creator {
+  margin: 0 0 50px 0;
 }
 
 /* 
@@ -230,7 +237,7 @@ a h4:hover {
 
 iframe {
   display: block;
-  margin: 100px auto;
+  margin: 0 auto 50px auto;
   overflow: scroll;
   min-width: 30%;
 }
