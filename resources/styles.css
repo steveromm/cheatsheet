@@ -80,6 +80,7 @@ h3 {
 
 .navbar {
   position: fixed;
+  top: 250px;
   left: 5px;
   width: 215px;
   z-index: 1;
