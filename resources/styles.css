@@ -172,9 +172,7 @@ td {
 @media screen and (min-width: 250px) and (max-width: 560px) {
   .tables {
     padding: 1rem 1rem 5rem 1rem;
-    border-radius: .3125rem;
     margin: 0 0 12.5rem 0;
-    background-color: aqua;
   }
 
   table.custom-table {
