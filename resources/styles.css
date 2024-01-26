@@ -37,19 +37,19 @@ h1 {
 
 h2 {
   text-align: center;
-  margin: 0px auto 3.125rem auto;
+  margin: 0 auto 3.125rem auto;
   font-size: 3rem;
   background-color: rgb(230, 224, 200);
   padding: 1.25rem;
   border-radius: .3125rem;
   filter: drop-shadow(.625rem .625rem rgb(106, 63, 63));
-  border: 2px solid rgb(106, 63, 63);
+  border: 0.125rem solid rgb(106, 63, 63);
 }
 
 h3 {
   text-align: center;
   margin: 0 0 0.5rem 0;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -64,8 +64,8 @@ h3 {
 
 @media screen and (min-width: 800px) and (max-width: 2000px) {
   .content {
-    margin-left: 275px;
-    margin-right: 30px;
+    margin-left: 17.1875rem;
+    margin-right: 1.875rem;
   }
 }
 
@@ -89,9 +89,9 @@ h3 {
   font-size: 3.125rem;
   display: block;
   background-color: rgb(230, 224, 200);
-  padding: 20px;
+  padding: 1.25rem;
   border-radius: .625rem;
-  border: 2px solid rgb(106, 63, 63);
+  border: 0.125rem solid rgb(106, 63, 63);
   filter: drop-shadow(1rem 1rem rgb(106, 63, 63));
 }
 
@@ -100,9 +100,9 @@ h3 {
     font-size: 2rem;
     display: block;
     background-color: rgb(230, 224, 200);
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid rgb(106, 63, 63);
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    border: 0.125rem solid rgb(106, 63, 63);
     filter: drop-shadow(.65rem .65rem rgb(106, 63, 63));
   }
 }
@@ -112,12 +112,12 @@ h3 {
 .navbar {
   position: fixed;
   top: 11.5rem;
-  left: 5px;
+  left: 0.3125rem;
   width: 13.4375rem;
   z-index: 1;
-  padding: 1.875rem 0px 1.875rem 1.875rem;
+  padding: 1.875rem 0 1.875rem 1.875rem;
   background-color: rgb(230, 224, 200);
-  border: 2px solid rgb(106, 63, 63);
+  border: 0.125rem solid rgb(106, 63, 63);
   border-radius: 0.3125rem;
   transition: all .5s;
 }
@@ -127,7 +127,7 @@ h3 {
 }
 
 .resource {
-  margin: 0 0 0 10px;
+  margin: 0 0 0 0.625rem;
 }
 
 /* table section */
@@ -135,9 +135,9 @@ h3 {
 table.custom-table {
   display: block;
   width: fit-content;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 3.125rem auto;
   background-color: rgb(230, 224, 200);
-  border: 2px solid rgb(106, 63, 63);
+  border: 0.125rem solid rgb(106, 63, 63);
   filter: drop-shadow(.75rem .75rem rgb(106, 63, 63));
   border-radius: 5px;
 }
@@ -149,7 +149,7 @@ table.custom-table {
 .tables {
   padding: 1rem 5rem 5rem 5rem;
   /* border-radius: .3125rem; */
-  margin: 0 0 200px 0;
+  margin: 0 0 12.5rem 0;
   /* background-color: aqua; */
 }
 
@@ -173,7 +173,7 @@ td {
   .tables {
     padding: 1rem 1rem 5rem 1rem;
     border-radius: .3125rem;
-    margin: 0 0 200px 0;
+    margin: 0 0 12.5rem 0;
     background-color: aqua;
   }
 
@@ -193,7 +193,7 @@ td {
 /* grid section */
 
 .practice-grid {
-  margin: 0 0 200px 0;
+  margin: 0 0 12.5rem 0;
 }
 
 .grid {
@@ -207,10 +207,10 @@ td {
 .box {
   background-color: rgb(106, 63, 63) ;
   color: rgb(252, 248, 202);
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .grid #b {
@@ -237,15 +237,15 @@ td {
 /* Flexbox Section */
 
 .flex {
-  margin: 0 0 200px 0;
+  margin: 0 0 12.5rem 0;
 }
 
 .container {
-  height: 150px;
+  height: 9.375rem;
   width: 100%;
   display: flex;
   background-color: rgb(252, 248, 202);
-  margin: 0 auto 30px auto;
+  margin: 0 auto 1.875rem auto;
   border: 1px solid rgb(106, 63, 63);
 }
 
